@@ -20,6 +20,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\DiscountEngine\RulesEngine.Library.csproj" />
     <ProjectReference Include="..\Lib.RulesEngine\RulesEngine.Library.csproj" />
   </ItemGroup>
 

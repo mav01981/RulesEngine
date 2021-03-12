@@ -1,6 +1,5 @@
-using RulesEngine.Tests.Models;
+using RulesEngine.Library.Models;
 using RulesEngineLibrary;
-using System;
 using Xunit;
 
 namespace RulesEngineTests
@@ -16,8 +15,7 @@ namespace RulesEngineTests
 
             var customer = new Customer
             {
-                DOB = new DateTime(),
-                Duration = 5,
+                LengthOfService = 5,
                 Offer = 100
             };
 
